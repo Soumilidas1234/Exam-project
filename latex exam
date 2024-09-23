@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+
+\begin{document}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{S.No} & \textbf{roll}     & \textbf{StudentName} & \multicolumn{3}{c|}{\textbf{Marks}} \\ \hline
+              &                  &                      & \textbf{Subject1} & \textbf{Subject2} & \textbf{Subject3} \\ \hline
+1             & 30001223017      & Soumili Das               & 89                & 60                & 90                \\ \hline
+2             & 30001223062       & Brithika Das                & 78                & 45                & 98                \\ \hline
+3             & 30001223040      & Rajib Roy               & 67                & 55                & 59                \\ \hline
+\end{tabular}
+\caption{Student Marks Table}
+\label{tab:marks}
+\end{table}
+
+\end{document}
